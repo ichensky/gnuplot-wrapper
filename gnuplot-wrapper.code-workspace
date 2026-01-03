@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"telemetry.editStats.enabled": false,
+		"telemetry.enableCrashReporter": false,
+		"telemetry.feedback.enabled": false,
+		"dotnetAcquisitionExtension.enableTelemetry": false,
+		"extensions.ignoreRecommendations": true,
+		"docker.lsp.telemetry": "off"
+	}
+}

@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <PackageId>GnuPlotWrapper</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Ivan Chensky</Authors>
+    <Product>GnuPlotWrapper</Product>
+    <Copyright>Copyright (c) Ivan Chensky 2026</Copyright>
+    <PackageProjectUrl>https://github.com/ichensky/gnuplot-wrapper</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ichensky/gnuplot-wrapper</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>gnuplot wrapper</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Description>
+    C# wrapper over `gnuplot` - command-line plotting tool    
+    </Description>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../../README.md" Pack="true" PackagePath="/" />
+    <None Include="../../LICENSE" Pack="true" PackagePath="/" />
+  </ItemGroup>
+
+
+</Project>
